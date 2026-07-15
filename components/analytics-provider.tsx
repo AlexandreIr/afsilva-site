@@ -201,7 +201,7 @@ export function AnalyticsProvider() {
           </div>
           <div className="consent-actions">
             <button type="button" className="consent-secondary" onClick={() => updateConsent("rejected")}>Recusar</button>
-            <button type="button" className="consent-primary" onClick={() => updateConsent("accepted")}>Aceitar métricas</button>
+            <button type="button" className="consent-primary" onClick={() => updateConsent("accepted")}>Aceitar cookies</button>
           </div>
           {showSettings ? (
             <button className="consent-close" aria-label="Fechar preferências" onClick={() => setShowSettings(false)}><X size={18} /></button>
